@@ -12,10 +12,24 @@ function App() {
   const addValue = ()=>{
     // console.log("value added" + Math.floor(Math.random()*10));
     // counter = counter + 1
-    if(counter < 20){
-      updateCounter(counter + 1)
+    // if(counter < 20){
+      // updateCounter(counter + 1)
+      // updateCounter(counter + 1)
+      // updateCounter(counter + 1)
+      // updateCounter(counter + 1)
+
+      //  updateCounter((prevCounter)=>prevCounter+1)
+      //  updateCounter((prevCounter)=>prevCounter+1)
+      //  updateCounter((prevCounter)=>prevCounter+1)
+      //  updateCounter((prevCounter)=>prevCounter+1)
+
+        updateCounter(prevCounter =>prevCounter+1)
+        updateCounter(prevCounter =>prevCounter+1)
+        updateCounter(prevCounter =>prevCounter+1)
+        updateCounter(prevCounter =>prevCounter+1)
+
       console.log("Clicked" + counter);
-    }
+    // }
     
 
   }
